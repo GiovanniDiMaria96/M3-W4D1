@@ -1,0 +1,131 @@
+
+.r-5{
+    width: 8rem;
+}
+.albs{
+    align-items: center;
+}
+button{
+    background-color: transparent;
+    border-color: transparent;
+}
+*, .c-uq{
+    background-color: #141414 !important;
+    color: white !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.jcsb{
+    justify-content: space-between;
+}
+.mt-6{
+margin-top: 8rem;
+
+}
+div.ft *{
+color: #808080 !important;
+list-style-type: none;
+}
+.ft-a{
+justify-content: center;
+margin-top: 15rem;
+}
+.srv{
+    border: 1px solid #808080;
+}
+.ft-a li{
+    margin-bottom: .5rem;
+    margin-left: 0;
+    margin-right: 5rem;
+
+}
+.ft-a ul{
+    margin-right: 5rem;
+    font-size: smaller;
+}
+.fs-7{
+    font-size: x-small;
+}
+
+/**********SCROLL-SNAP***************VVVVVVVVVVV*/
+
+.scroll-container {
+  display: flex;
+  overflow-x: scroll;
+  white-space: nowrap;
+  scroll-snap-type: x mandatory;
+  overflow-x: scroll;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+  scroll-behavior: smooth;
+}
+.scroll-item {
+  display: inline-block;
+  width: 300px;
+  scroll-snap-align: start;
+  margin-right: 10px;
+}
+.carousel-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 7rem;
+  cursor: pointer;
+  z-index: 100;
+  opacity: 0;
+}
+.carousel-arrow.left {
+  left: 10px;
+}
+.carousel-arrow.right {
+  right: 10px;
+}
+
+
+/**********SCROLL-SNAP***************^^^^^^^^^^^^*/
+
+
+
+
+
+
+
+
+
+/*********MODIFICATI******************/
+.btn-secondary {
+    --bs-btn-color: white;
+    --bs-btn-bg: transparent;
+    --bs-btn-border-color: transparent;
+    --bs-btn-hover-color: white;
+    --bs-btn-hover-bg: transparent;
+    --bs-btn-hover-border-color: transparent;
+    --bs-btn-focus-shadow-rgb: 130, 138, 145;
+    --bs-btn-active-color: white;
+    --bs-btn-active-bg: transparent;
+    --bs-btn-active-border-color: transparent;
+    --bs-btn-active-shadow: transparent;
+    --bs-btn-disabled-color: transparent;
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: transparent;
+}
+
+.dropdown-menu[data-bs-popper] {
+    top: 100%;
+    left: -6rem;
+    margin-top: var(--bs-dropdown-spacer);
+}
+.dropdown-item {
+    color: white;
+}
+.navbar-toggler {
+    border-color: white;
+}
+.row > * {
+    flex-shrink: 0;
+    width: 98%;
+    max-width: 98%;
+    padding-right: calc(var(--bs-gutter-x)* 0.5);
+    padding-left: calc(var(--bs-gutter-x)* 0.5);
+    margin-top: var(--bs-gutter-y);
+}
