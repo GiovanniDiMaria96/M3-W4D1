@@ -53,6 +53,10 @@ margin-top: 15rem;
     transform: scale(1.1);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
+.scroll-container{
+    padding-top: 1.875rem;
+    padding-bottom: 1.875rem;
+}
 
 /**********SCROLL-SNAP***************VVVVVVVVVVV*/
 
