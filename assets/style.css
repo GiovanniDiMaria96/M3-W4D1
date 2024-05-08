@@ -57,6 +57,12 @@ margin-top: 15rem;
     padding-top: 1.875rem;
     padding-bottom: 1.875rem;
 }
+.adj{
+    margin-right: 0;
+}
+.adj li{
+    margin-right: 0;
+}
 
 /**********SCROLL-SNAP***************VVVVVVVVVVV*/
 
